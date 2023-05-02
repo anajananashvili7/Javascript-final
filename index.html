@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">Tourism</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="assets/pages/howitworks.html" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="assets/pages/stories.html" class="nav-link">about us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="assets/pages/shop.html" class="nav-link">our services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="assets/pages/contact.html" class="nav-link">tours</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="slideshow-container">
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/imgs/input-cover.jpg" style="width:100%">
+            <div class="caption">Caption text goes here Caption text goes here Caption text goes here Caption text goes here</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/imgs/sea2.jpg" style="width:100%">
+            <div class="caption">Caption text goes here</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/imgs/3b117b6c107c9dd2eb9c12a148c49728.jpg" style="width:100%">
+            <div class="caption">Caption text goes here</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    </div>
+
+
+    <div class="container-project">
+        <div class="grid-wrapper">
+            <div class="one">
+                <div>
+                    <div style="color:grey; text-transform: uppercase; margin-bottom: 5px;">discover</div>
+                    <h4><span style="text-decoration: underline blue wavy ;">our</span> hot services</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quia corrupti non quae?
+                        Dolorum non
+                        quaerat distinctio debitis ipsam obcaecati quo!</p>
+                </div>
+            </div>
+            <div class="two">
+                <div>
+                    <img src="assets/imgs/img-1.jpg">
+                    <h4>flight booking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quia corrupti non quae?</p>
+
+                </div>
+            </div>
+            <div class="three">
+                <div>
+                    <img src="assets/imgs/swimming-pool.jpg">
+                    <h4>flight booking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quia corrupti non quae?</p>
+
+                </div>
+            </div>
+            <div class="four">
+                <div>
+                    <img src="assets/imgs/family.jpg">
+                    <h4>flight booking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quia corrupti non quae?</p>
+                </div>
+            </div>
+            <div class="five">
+                <div>
+                    <img src="assets/imgs/winter-1.jpg">
+                    <h4>flight booking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quia corrupti non quae?</p>
+
+                </div>
+            </div>
+            <div class="six">
+                <div>
+                    <img src="assets/imgs/winter-2.jpg">
+                    <h4>flight booking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quia corrupti non quae?</p>
+
+                </div>
+            </div>
+            <div class="seven">
+                <div>
+                    <img src="assets/imgs/winter-3.jpg">
+                    <h4>flight booking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sapiente quia corrupti non quae?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-section">
+        <img src="assets/imgs/blury.jpg">
+    </div>
+
+
+    <div class="video" style="text-align:center">
+        <button onclick="playPause()">Play/Pause</button>
+        <br><br>
+        <video id="video1" width="320">
+            <source src="assets/video/Series 3 Summary.mp4" type="video/mp4">
+            <source src="mov_bbb.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+
+    <div class="container-project">
+        <div class="icons-section">
+            <div>
+                <div>
+                    <img src="assets/imgs/star.png">
+                </div>
+                <div class="numbers">120,859</div>
+                <div class="icon-name">happy travellers</div>
+            </div>
+            <div>
+                <div>
+                    <img src="assets/imgs/eiffel-tower.png">
+                </div>
+                <div class="numbers">2594</div>
+                <div class="icon-name">satisfied tours</div>
+            </div>
+            <div>
+                <div>
+                    <img src="assets/imgs/globe.png">
+                </div>
+                <div class="numbers">854</div>
+                <div class="icon-name">destination</div>
+            </div>
+            <div>
+                <div>
+                    <img src="assets/imgs/brick.png">
+                </div>
+                <div class="numbers">978</div>
+                <div class="icon-name">hotels & resorts</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tours">
+        <div class="tours-first-line">we offer</div>
+        <div class="tours-second-line">popular <span style="text-decoration: underline wavy blue;">tour</span> package
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="container-cards">
+            <img src="assets/imgs/santorini.jpg" alt="Snow">
+            <div class="top-left">Honeymoon</div>
+            <div style="color:black;">$299/person</div>
+            <div style="color:blue; font-size: 20px;">Blue Beauty of Greece</div>
+            <div style="color:black;">5 Days/6 Night</div>
+        </div>
+
+        <div class="container-cards">
+            <img src="assets/imgs/night.avif" alt="Snow">
+            <div class="top-left">Holiday</div>
+            <div style="color:black;">$1111/person</div>
+            <div style="color:blue; font-size: 20px;">World Tour of Paris</div>
+            <div style="color:black;">7 Days/8 Night</div>
+        </div>
+
+        <div class="container-cards">
+            <img src="assets/imgs/italy.jpg" alt="Snow">
+            <div class="top-left">Holiday</div>
+            <div style="color:black;">$178/person</div>
+            <div style="color:blue; font-size: 20px;">Nature of Italy</div>
+            <div style="color:black;">3 Days/4 Night</div>
+        </div>
+    </div>
+
+
+    <div class="outer-flex">
+        <img style="width:100%;" src="assets/imgs/surfing.jpg">
+        <div class="outer-flex-1">Get 10% Off on Your Next Travel</div>
+        <div class="outer-flex-2">Maximum discount 100$ per person</div>
+        <div class="input-flex">
+            <div class="input-one">
+                <label for="Email"></label>
+                <input type="text" id="Email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="under-input-button">
+                <button>subscribe</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="tours">
+        <div class="tours-first-line">our smiles</div>
+        <div class="tours-second-line">Happy <span style="text-decoration: underline wavy blue;">tra</span>velers
+        </div>
+    </div>
+
+    <div class="container-project">
+
+        <div class="comments-flex">
+            <div class="comments-flex-1">
+                <div class="image-1">
+                    <img src="assets/imgs/denis-tuksar-hdKswq3ZSwk-unsplash 1.png">
+                </div>
+                <div class="name">Ribeca Singh</div>
+                <div>
+                    <p class="comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit similique nulla,
+                        et rem corporis sunt eos adipisci doloribus eum illum reprehenderit quia asperiores </p>
+                </div>
+
+                <div>
+                    <img style="width:10%" src="assets/imgs/right-quote-sign.png">
+                </div>
+            </div>
+
+            <div class="comments-flex-1">
+                <div class="image-1">
+                    <img src="assets/imgs/ian-dooley-d1UPkiFd04A-unsplash 1 (1).png">
+                </div>
+                <div class="name">Jimmy Dean</div>
+                <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eveniet deleniti,
+                    suscipit quo vitae odio accusamus dignissimos unde delectus aperiam debitis architecto </p>
+                <div>
+                    <img style="width:10%" src="assets/imgs/right-quote-sign.png">
+                </div>
+            </div>
+
+            <div class="comments-flex-1">
+                <div class="image-1">
+                    <img src="assets/imgs/denis-tuksar-hdKswq3ZSwk-unsplash 1.png">
+                </div>
+                <div class="name">Theodule Terer</div>
+                <p class="comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda asperiores eius
+                    dolore laboriosam cumque veritatis. Minima iusto sapiente inventore excepturi </p>
+                <div>
+                    <img style="width:10%" src="assets/imgs/right-quote-sign.png">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="booking">
+        <img style="width:100%;" src="assets/imgs/mountain.jpg">
+        <div class="booking-sentence">Ready to plan your trip?</div>
+        <div class="booking-button">
+            <button>book now</button>
+        </div>
+    </div>
+
+    <div class="tours">
+        <div class="tours-first-line">destination</div>
+        <div class="tours-second-line">Popular Tour<span style="text-decoration: underline wavy blue;">ism</span>
+            package
+        </div>
+    </div>
+
+    <div class="container-project">
+        <div class="tourism-flex">
+            <div class="tourism-1">
+                <img style="opacity:0.7" src="assets/imgs/im-1 (1).jpg">
+                <img style="width:35px; cursor: pointer; position: absolute; left:210px; top:90%" src="assets/imgs/next.png">
+                <div class="inner-1-1">Thailand</div>
+                <div class="inner-1-2">$700-$2000</div>
+            </div>
+        
+            <div class="tourism-1">
+                <img style="opacity:0.7" src="assets/imgs/im-3 (2).jpg">
+                <img style="width:35px; cursor: pointer; position: absolute; left:210px; top:90%" src="assets/imgs/next.png">
+                <div class="inner-1-1">Thailand</div>
+                <div class="inner-1-2">$700-$2000</div>
+            </div>
+        
+            <div class="tourism-1">
+                <img style="opacity:0.7" src="assets/imgs/tom-vining-668021-un.png">
+                <img style="width:35px; cursor: pointer; position: absolute; left:210px; top:90%" src="assets/imgs/next.png">
+                <div class="inner-1-1">Thailand</div>
+                <div class="inner-1-2">$700-$2000</div>
+            </div>
+            <div class="tourism-1">
+                <img style="opacity:0.7" src="assets/imgs/im-1 (1).jpg">
+                <img style="width:35px; cursor: pointer; position: absolute; left:210px; top:90%" src="assets/imgs/next.png">
+                <div class="inner-1-1">Thailand</div>
+                <div class="inner-1-2">$700-$2000</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="map">
+        <iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.210633828624!2d-87.92362312411916!3d44.53131957107396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e61d64ca7a93%3A0xd35c038e0e1219bd!2sUniversity%20of%20Wisconsin-Green%20Bay!5e0!3m2!1ska!2sge!4v1682886302458!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        
+        <div class="footer-flex">
+            <div>
+                <h5>Quick Links</h5>
+                <div>Home</div>
+                <div>About Company</div>
+                <div>Testimonials</div>
+                <div>Infrastructure</div>
+            </div>
+            <div>
+                <h5>Support</h5>
+                <div>Get Started</div>
+                <div>Lorem</div>
+                <div>Help</div>
+                <div>Ipsum</div>
+            </div>
+            <div>
+                <h5>Address</h5>
+                <div>14, 1 Ellis bridge ST,</div>
+                <div>auckland 3500, Australia</div>
+                <div>+1234567890</div>
+                <div>contactus@demo.com</div>
+            </div>
+            <div>
+                <div>Subscribe to our newsletter</div>
+                <div class="input-2">
+                    <label for="Email-2"></label>
+                <input type="text" id="Email-2" name="email-2" placeholder="Your email">
+                <img style="position:absolute; left:78%; top:-10%; width:51%;" src="assets/imgs/Clip.png">
+                </div>
+            </div>
+        </div>
+        <div class="last-line">rourism@All Rights Reserved</div>
+
+    </footer>
+
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
